@@ -1,6 +1,6 @@
 package ru.sber.javaschool.atm;
 
-import ru.sber.javaschool.card.Card;
+import ru.sber.javaschool.model.Card;
 
 public interface Reader {
 

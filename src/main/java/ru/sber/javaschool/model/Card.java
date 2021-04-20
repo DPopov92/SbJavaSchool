@@ -1,9 +1,8 @@
-package ru.sber.javaschool.card;
+package ru.sber.javaschool.model;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
 
-import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Data
@@ -12,7 +11,8 @@ public class Card {
     private LocalDate expireDate;
     private String ownerName;
     private String ownerSurname;
-    private BigDecimal balance;
     private int pin;
-    private String currency;
+    private String number;
+    private String accountId;
+    private String clientId;
 }

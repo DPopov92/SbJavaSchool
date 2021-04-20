@@ -1,18 +1,18 @@
 package ru.sber.javaschool.atm;
 
-import ru.sber.javaschool.card.Card;
+import ru.sber.javaschool.model.Card;
 
 
 public interface Terminal {
 
     void start();
 
-    boolean checkPin(int pin);
+  //  boolean checkPin(int pin);
 
     void showBalance();
 
     void extractCard(Card currentCard);
 
-    void authentication();
+    boolean authentication();
 
 }

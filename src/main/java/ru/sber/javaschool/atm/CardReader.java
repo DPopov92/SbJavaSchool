@@ -1,14 +1,12 @@
 package ru.sber.javaschool.atm;
 
-import ru.sber.javaschool.card.Card;
+import ru.sber.javaschool.model.Card;
 
-import java.math.BigDecimal;
-
-public class CardReader implements Reader{
+public class CardReader implements Reader {
 
     @Override
     public Card getInputCard() {
-        return new Card().setOwnerName("MrOwner").setOwnerSurname("OwnersSurname").setPin(777).setBalance(new BigDecimal("582721.23")).setCurrency("RUB");
+        return new Card().setNumber("7777 7777 7777 7777");
     }
 
     @Override
